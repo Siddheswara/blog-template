@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    font-family: var(--font1);
+/* background-color: yellow; */
+/* height: 67px; */
+display: flex;
+margin-top: 3px;
+justify-content: space-between;
+align-items: center;
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+.nav-left span{
+    font-size: 30px;
+font-weight: bolder;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0.2em 3em;
+    padding: 0 2em;
+}
+.nav-left ul li{
+    font-family: var(--font2);
+    list-style: none;
+    padding: 0.1em 0.9em;
+    
+    
+}
+.nav-left ul li a{
+    color: black;
+    text-decoration: none;
+    /* transition: all 0.4s ease-in-out; */
+    /* padding: 3px 12px;   */
+    padding: 5px 15px;
+    border-radius: 23px;
+    
+    
+}
+.nav-left ul li a:hover{
+    color: rgb(255, 255, 255);
+font-weight: bolder;
+    
+    background-color: var(--mainbg);
+}
+.content{
+    
+    height: 100%;
+    display: flex;
+margin-top: 32px ;
+padding: 23px;
+background-color: aliceblue;
+border-radius: 12px;
+}
+.content-left{
+    font-family: var(--font1);
+    /* width: 60%; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+justify-content: center;
+}
+.content-right{
+    /* width: 40%; */
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.content-right img{
+    height: 280px;
+    border-radius: 50%;  
+    border: 3px solid black;  
+}
+.home-articles{
+    /* height: 500px; */
+    background-color: rgba(113, 192, 253, 0.096);
+    margin-top: 13px;
+     padding: 23px;
+     border-radius:12px ;
+     position: relative;
+
+}
+.year-box{
+    position: absolute;
+    width: 10%;
+    
+    top: 10%;
+    right: 10%;
+    font-size: 18px;
+    background-color:rgba(158, 215, 243, 0.753);
+   display: flex;
+   padding: 12px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 12px;
+}
+.year-box div{
+    margin: 5px 0;
+}
+.home-article-content a{
+    color: black;
+    text-decoration: none;
+
+}
+.home-articles h2{
+   text-align: center;
+
+}
+.home-article{
+    display: flex;
+    margin: 22px;
+    
+
+}
+
+
+.home-article-image img{
+    width: 200px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 30px;
+
+}
+
+.foot{
+    /* border: 2px solid black;   */
+    height: 78px; 
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    margin-top:13px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.foot a{
+   color: rgb(14, 13, 13);
+}
